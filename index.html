@@ -5,9 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="js.js"></script>
+    <script src="js.js" defer></script>
+    <link rel='stylesheet' href="rps.css">
 </head>
 <body>
-    <h1>Rock Paper Scissors</h1>
+    <div class="main">
+        <div class="title">
+            <h1>Rock Paper Scissors</h1>
+        </div>
+        <div class="mid">
+            <div class="options">
+                <div class="playerSelection" id="rock">
+                    <p>Rock</p>
+                </div>
+                <div class="playerSelection" id="paper">
+                    <p>Paper</p>
+                </div>
+                <div class="playerSelection" id="scissors">
+                    <p>Scissors</p>
+                </div>
+            </div>
+            <div id="result">
+                <p class="roundResult"></p>
+                <div class="scorebox">
+                    <p>Score:</p>
+                    <p id="playerScore" class="score">0</p> 
+                    <span class="divider"> | </span>
+                    <p id="computerScore" class="score">0</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

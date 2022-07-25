@@ -1,0 +1,42 @@
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+  }
+
+  .options {
+    display: flex;
+  }
+
+  .playerSelection {
+    padding: 10px;
+    border: 1px solid black;
+    width: 75px;
+    margin: 5px;
+    text-align: center;
+  }
+
+  #result {
+    display: flex;
+    flex-direction: column;
+     width: 100%;
+    align-items: center;
+  }
+
+  .divider {
+    margin-top: 16px;
+  }
+
+  .score {
+    margin-inline: 8px;
+  }
+
+  .scorebox {
+    display: flex;
+  }
+
+  .roundResult {
+    height: 18px;
+
+  }
